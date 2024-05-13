@@ -1,4 +1,4 @@
-import { CardTop, CardLeft, CardRight, DivContainer, Text01, Text02, Text03, Text04 } from '../Styles/Card.js'
+import { Button01,Lista, Text08, DivText, CardTop, CardLeft, CardRight, DivContainer, Text01, Text02, Text03, Text04, Text05, Text06, Text07} from '../Styles/Card.js'
 
 const Card = () => {
  return (
@@ -11,8 +11,25 @@ const Card = () => {
    <DivContainer>
     <CardLeft>
      <Text04>Monthly Subcription</Text04>
+     <DivText>
+      <Text05>$29</Text05>
+      <Text06>per month</Text06>
+     </DivText>
+     <Text07>Full access for less than $1 a day</Text07>
+     <Button01>Sign Up</Button01>
     </CardLeft>
-    <CardRight></CardRight>
+    <CardRight>
+     <Text08>Why Us</Text08>
+     <Lista>
+      <dd>Tuturials by industy expert</dd>
+      <dd>Peer & expert code review</dd>
+      <dd>Coding exercises</dd>
+      <dd>Access to our GitHub repos</dd>
+      <dd>Community forum</dd>
+      <dd>Flashcards decks</dd>
+      <dd>New videos every week</dd>
+     </Lista>
+    </CardRight>
    </DivContainer>
   </main>
  )
