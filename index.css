@@ -1,0 +1,44 @@
+body{
+ display: flex;
+ justify-content: center;
+ background-color: hsl(218, 22%, 67%);
+ margin-top: 200px;
+}
+
+.karla-font{
+ font-family: "Karla", sans-serif;
+ font-optical-sizing: auto;
+ font-weight: 400;
+ font-style: normal;
+}
+
+h2{
+ font-family: "Karla", sans-serif;
+ font-optical-sizing: auto;
+ font-weight: 400;
+ font-style: normal;
+}
+
+h3{
+ font-family: "Karla", sans-serif;
+ font-optical-sizing: auto;
+ font-weight: 400;
+ font-style: normal;
+
+}
+
+p{
+ font-family: "Karla", sans-serif;
+ font-optical-sizing: auto;
+ font-weight: 400;
+ font-style: normal;
+
+}
+
+dl{
+ font-family: "Karla", sans-serif;
+ font-optical-sizing: auto;
+ font-weight: 400;
+ font-style: normal;
+
+}
